@@ -7,6 +7,7 @@ const myElement = (
     <li>Bananas</li>
     <li>Cherries</li>
     <li>Santol</li>
+    <li>Guava</li>
   </ul>
 );
 
