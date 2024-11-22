@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [get-started]
 
 jobs:
   build-and-deploy:
@@ -17,5 +17,5 @@ jobs:
       - run: npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN1 }}
           publish_dir: ./build
